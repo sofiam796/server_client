@@ -3,6 +3,7 @@ import socket
 from concurrent.futures import ThreadPoolExecutor
 import pickle
 
+
 def multiply_matrix(matrix1, matrix2):
     return np.dot(matrix1, matrix2)
 

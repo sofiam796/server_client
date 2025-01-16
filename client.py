@@ -2,6 +2,7 @@ import numpy as np
 import socket
 import pickle
 
+
 def generate_matrix():
     N, M, L = np.random.randint(1001, 2000, size=3)
     matrix1 = np.random.randint(0, 100, size=(N, M))
